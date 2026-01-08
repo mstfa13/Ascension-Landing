@@ -124,7 +124,7 @@ const Home = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center overflow-hidden">
+      <section id="hero" data-section="hero" className="relative min-h-screen flex items-center overflow-hidden">
         {/* Background Elements */}
         <div className="absolute inset-0 bg-gradient-to-br from-dark-950 via-dark-900 to-dark-950" />
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920')] bg-cover bg-center opacity-10" />
@@ -238,7 +238,7 @@ const Home = () => {
       </section>
 
       {/* Problem-Agitation Section */}
-      <section className="py-20 bg-dark-900">
+      <section id="pain-points" data-section="pain-points" className="py-20 bg-dark-900">
         <div className="container mx-auto px-4">
           <motion.div
             initial="hidden"
@@ -294,7 +294,7 @@ const Home = () => {
       </section>
 
       {/* Transformation Section */}
-      <section className="py-20 bg-dark-950">
+      <section id="transformations" data-section="transformations" className="py-20 bg-dark-950">
         <div className="container mx-auto px-4">
           <motion.div
             initial="hidden"
@@ -337,7 +337,7 @@ const Home = () => {
       </section>
 
       {/* Method/System Section */}
-      <section id="method" className="py-20 bg-dark-900">
+      <section id="method" data-section="method" className="py-20 bg-dark-900">
         <div className="container mx-auto px-4">
           <motion.div
             initial="hidden"
@@ -391,7 +391,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section ref={statsRef} className="py-20 bg-dark-950 border-y border-dark-800">
+      <section ref={statsRef} id="stats" data-section="stats" className="py-20 bg-dark-950 border-y border-dark-800">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -463,7 +463,7 @@ const Home = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-dark-950 via-dark-900 to-dark-950 relative overflow-hidden">
+      <section id="final-cta" data-section="final-cta" className="py-20 bg-gradient-to-br from-dark-950 via-dark-900 to-dark-950 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gold-500/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-crimson-500/10 rounded-full blur-3xl" />
 
