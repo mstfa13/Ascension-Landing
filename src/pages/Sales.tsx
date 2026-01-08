@@ -10,17 +10,13 @@ import {
   Users,
   Clock,
   Shield,
-  Zap,
-  Play,
   Check,
   X,
   Gift,
   Lock,
   CreditCard,
   AlertCircle,
-  ChevronRight,
   Flame,
-  Target,
   Dumbbell,
   Utensils,
   Brain,
@@ -34,7 +30,6 @@ import {
 } from 'lucide-react';
 import CountdownTimer from '../components/CountdownTimer';
 import FAQAccordion from '../components/FAQAccordion';
-import TestimonialCard from '../components/TestimonialCard';
 
 const Sales = () => {
   const [selectedPlan, setSelectedPlan] = useState<'full' | 'payment'>('full');

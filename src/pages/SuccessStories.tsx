@@ -9,9 +9,7 @@ import {
   Play,
   Quote,
   TrendingUp,
-  Clock,
-  Target,
-  Dumbbell
+  Clock
 } from 'lucide-react';
 import { useState } from 'react';
 

@@ -4,7 +4,6 @@ import {
   ArrowRight,
   CheckCircle,
   Check,
-  Star,
   Zap,
   Shield,
   Clock,

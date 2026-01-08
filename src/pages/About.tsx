@@ -12,7 +12,6 @@ import {
   GraduationCap,
   Trophy,
   ArrowRight,
-  CheckCircle,
   Star,
   Quote
 } from 'lucide-react';
